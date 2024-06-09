@@ -1,0 +1,86 @@
+/* Isi Website*/
+content {
+    background-color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.komentar {
+    background-image: url(image/jembatan.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    opacity: 0.6;
+}
+
+.teks-komentar {
+    background-color: rgb(251, 251, 251);
+    transform: translate(-50%, -50%);
+    color: #333;
+    top: 25%;
+    left: 50%;
+    width: 370px;
+    height: 80px;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(105, 105, 105, 0.6);
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+/* Isi Konten Website*/
+.isi-komentar {
+    display: block;
+    position: relative;
+    background-color: rgb(249, 252, 251);
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+}
+
+.isi-konten-komentar {
+    text-align: justify;
+    font-family: Arial;
+    color: black;
+    height: 490px;
+    margin-right: 95px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.box-komentar {
+    float: left;
+    width: 450px; /* Sesuaikan lebar kolom card sesuai kebutuhan */
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(247, 238, 226);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabel button {
+    background-color: rgb(85, 132, 117);
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+}
+
+.tabel button:hover{
+    background-color: rgb(170, 227, 209);
+    color: black;
+}

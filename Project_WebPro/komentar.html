@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "home.css">
+        <link rel = "stylesheet" href = "sejarah.css">
+        <link rel = "stylesheet" href = "wisata.css">
+        <link rel = "stylesheet" href = "kuliner.css">
+        <link rel = "stylesheet" href = "walikota.css">
+        <link rel = "stylesheet" href = "visi-misi.css">
+        <link rel = "stylesheet" href = "komentar.css">
+        <title>Komentar</title>
+        </head>
+
+    <!-- Badan Website-->
+    <body>
+        <!--Membuat Header-->
+        <header>
+            <div class = "komentar"></div>
+            <div class = "teks-komentar">
+                <p3 align = "center">Komentar</p3>
+            </div>
+        </header>
+        <!--End Header-->
+
+        <!--Membuat Isi Konten Website-->
+        <content>
+            <!-- Section Navigasi -->
+            <div class = "menu">
+                <nav class = "nav1">
+                    <ul>
+                        <li><a href = "home.html">Home</a></li>
+                        <li><a href = "sejarah.html">Sejarah</a></li>
+
+                        <!-- Membuat navigasi menu pemerintahan menurun ke bawah (dropdown)-->
+                        <li class = "dropdown">
+                            <a>Pemerintahan</a>
+                            <!-- Membuat konten navigasi dropdown -->
+                            <div class = "konten-dropdown">
+                                <a href = "walikota.html">Walikota & Wakil Walikota</a>
+                                <a href = "visi-misi.html">Visi & Misi</a>
+                            </div>
+                        </li>
+                        <li><a href = "wisata.php">Wisata</a></li>
+                        <li><a href = "kuliner.html">Kuliner</a></li>
+                        <li><a href = "komentar.html">Komentar</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--End Menu-->
+
+            <!-- Section Isi Website -->
+            <div class = "isi-komentar">
+                <div class = "isi-konten-komentar">
+                    <div class = "box-komentar">
+                        <h1 align = "center">Komentar</h1>
+                        <div class = "tabel">
+                            <table border = "0" cellspasing = "0" cellpadding = "4">
+                                <form action = "tampilan_komentar.php" method = "post">
+                                    <tr align="left">
+                                        <td><label>Nama  </label></td>
+                                        <td><input type = "text" name = "nama"></td>
+                                    </tr>
+                                    <tr align = "left">
+                                        <td><label for = "jenis_kelamin">Jenis Kelamin </label></td>
+                                        <td><input type = "radio" id = "jenis_kelamin" name = "jenis_kelamin" value = "Laki-Laki">Laki-Laki 
+                                        <input type = "radio" id = "jenis_kelamin" name = "jenis_kelamin" value = "Perempuan">Perempuan </td>
+                                    </tr>
+                                    <tr align="left">
+                                        <td><label>E-mail  </label></td>
+                                        <td><input type = "text" name = "email"></td>
+                                    </tr>
+                                    <tr align="left">
+                                        <td><label>Komentar  </label></td>
+                                        <td><textarea rows = "4" cols = "40" name = "komentar"></textarea></td>
+                                    </tr>
+                                    <div class = "submit">
+                                        <tr align="left">
+                                            <td colspan = "3" width = "50" height = "50">
+                                                <button type = "submit">Submit</button>
+                                            </td>
+                                        </tr>
+                                    </div>
+                                </form>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </content>
+    </body>
+    
+    <!--FOOTER -->
+    <footer>
+        <div class = "copyright">
+            <p>&copy; 2023 Kelompok 2 Web Programming.</p>
+            <p>All rights reserved.</p> 
+        </div>
+    </footer>
+</html>
+
+<!-- Kolom Komentar-->
+<!--<div class = "komentar">
+    <h2 align = "center">Komentar</h2>
+    <div class = "tabel">
+        <table border = "0" cellspasing = "0" cellpadding = "3" width = "550">
+            <form action = "tampilan_tugas_3.2.php" method = "post">
+                <tr align="left">
+                    <td><label>Nama  </label></td>
+                    <td><input type = "text" name = "nama"></td>
+                </tr>
+                <tr align="left">
+                    <td><label>E-mail  </label></td>
+                    <td><input type = "text" name = "email"></td>
+                </tr>
+                <tr align="left">
+                    <td><label>Komentar  </label></td>
+                    <td><textarea rows = "4" cols = "40" name = "komen"></textarea></td>
+                </tr>
+                <div class = "submit">
+                    <tr align="left">
+                        <td colspan = "3" width = "50" height = "50">
+                            <button type = "submit">Submit</button>
+                        </td>
+                    </tr>
+                </div>
+            </form>
+        </table>
+    </div>
+</div>-->

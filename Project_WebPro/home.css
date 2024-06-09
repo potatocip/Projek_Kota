@@ -1,0 +1,237 @@
+/* BODY */
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.header1 {
+    padding: 0px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+}
+
+.header-home{
+    background-image: url(image/samarinda.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.6;
+}
+
+.teks-header {
+    position: absolute;
+    background-color: rgb(251, 251, 251);
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(105, 105, 105, 0.6);
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+img {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    margin-top: 10PX;
+}
+
+/* Isi Website*/
+content {
+    background-color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+/* Bilah Navigasi */
+.menu {
+    background-color: #f6f4c6;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px 0px #e5c881;
+}
+
+.nav1 {
+    display: inline-block;
+}
+
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav1 li {
+    display: inline-block;
+}
+
+.nav1 a {
+    display: inline-block;
+    width: 120px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav1 a:hover {
+    background-color: #c6eddc;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.konten-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fbfbfb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown:hover .konten-dropdown {
+    display: block;
+}
+
+.konten-dropdown a{
+    display: block;
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    width: 128px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.konten-dropdown a:hover {
+    background-color: #ddf8ec;
+}
+
+/* Isi Konten Website*/
+.isi {
+    display: block;
+    position: relative;
+    background-color: rgb(249, 252, 251);
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.konten {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.konten h1{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.isi-konten-home {
+    text-align: justify;
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.isi-konten-home p2 {
+    margin-left: 60px;
+}
+
+.semi-footer {
+    max-width: 1920px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(242, 236, 198);
+}
+
+.kelompok {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.kelompok p {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.anggota {
+    margin-top: 10px;
+    color: #787777;
+}
+
+.anggota a:hover {
+    color: #b9b9b9;
+}
+
+.nav2 {
+    display: inline-block;
+}
+
+.nav2 ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.nav2 li {
+    display: inline-block;
+}
+
+.nav2 a {
+    display: inline-block;
+    padding: 0px 0px;
+    width: 317px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*FOOTER*/
+footer {
+    padding: 20px;
+    background-color: rgb(211, 185, 104);
+}
+
+.copyright {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family : 'Times New Roman';
+    font-weight :normal;
+}
+
+.copyright p {
+    margin: 0;
+}
+
